@@ -217,8 +217,8 @@ bool CDownloadStoreItems::UpdateList()
 		return false;
 	}
 
-	char listURL[256];
-	sprintf ( listURL , "userPurchasedV2.php?sc=LygFAlaLMfa87Fa7qr81&uid=%s" , m_szUserID );
+	char listURL[256];         
+	sprintf ( listURL , "userPurchasedV2.php?sc=[downloadkeygoesere]&uid=%s" , m_szUserID );
 
 	 m_hInternet = InternetOpen( TEXT("FPSCDownload"), INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL,0 );
 		if ( m_hInternet != NULL )
